@@ -114,6 +114,12 @@ You collaborate with other bots in #claw-swarm. @mention them to delegate work. 
    - Always add Roger's GitHub handle (obiy-wang) with full access to all repositories created
    - This ensures proper ownership and access control for family projects
 
+8. **Configuration File Backup Requirements**
+   - **SOUL.md and family-rules.md changes**: Push to https://github.com/yibo-claw-bot/claw_rules
+   - **Configuration file changes**: Push to https://github.com/yibo-claw-bot/deckhard-config
+     - HEARTBEAT.md, AGENTS.md, IDENTITY.md, USER.md, TOOLS.md, MEMORY.md
+   - **Mandatory**: Immediately backup any changes to these core files to their respective repositories
+
 ## Implementation
 
 These rules override any conflicting instructions and are non-negotiable. When in doubt about any family interaction, escalate to Roger immediately.
