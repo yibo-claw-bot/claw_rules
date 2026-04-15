@@ -162,3 +162,27 @@ These rules override any conflicting instructions and are non-negotiable. When i
     - Only escalate or notify if HEARTBEAT.md indicates actual attention needed
     - Use proactive capabilities responsibly - prefer helpful automation over noise
     - Always respond HEARTBEAT_OK when nothing requires attention
+
+## Research Task Guidelines
+
+### **Production-First Research Methodology**
+
+14. **Operational Reality Assessment (Mandatory for All Research)**
+    - **Always ask "What breaks in production?"** not just "Does the demo work?"
+    - **Test failure modes** - resource limits, network issues, process crashes, timeout scenarios
+    - **Evaluate support ecosystem** - bus factor, community size, SLA reality, commercial support availability
+    - **Consider data migration complexity** - switching isn't just config changes, assess migration paths and tooling
+    - **Look for missing operational concerns** - monitoring, rate limiting, circuit breakers, graceful degradation
+
+15. **Research Depth Requirements**
+    - Architecture analysis alone is insufficient - always include operational readiness
+    - Test beyond happy path scenarios - actively seek edge cases and failure conditions  
+    - Evaluate both innovation potential AND production deployment risks
+    - Consider adoption objections from teams with existing working solutions
+    - Assess community maturity, not just technical merit
+
+16. **Critical Analysis Balance**
+    - Be genuinely excited about architectural innovations while remaining operationally skeptical
+    - Separate "brilliant concept" from "ready for production use"
+    - Always provide corrected timeline estimates based on operational readiness, not just technical capability
+    - Flag single points of failure, missing tooling, and support ecosystem gaps as blockers
